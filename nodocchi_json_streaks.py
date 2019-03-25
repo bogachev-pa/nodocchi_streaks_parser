@@ -61,7 +61,7 @@ def find_streaks(json_data, player):
         parse_streak(game, player, ["player3"], STREAK_3)
         parse_streak(game, player, ["player4"], STREAK_4)
         parse_streak(game, player, ["player1", "player2"], STREAK_12)
-        parse_streak(game, player, ["player1", "player2", "player2"], STREAK_123)
+        parse_streak(game, player, ["player1", "player2", "player3"], STREAK_123)
         parse_streak(game, player, ["player3", "player4"], STREAK_34)
 
     print("Max streaks for player {}:".format(player))
